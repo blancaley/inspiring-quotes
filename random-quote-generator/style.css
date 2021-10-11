@@ -1,0 +1,82 @@
+html {
+    height:100%;
+  }
+  
+body {
+    background-image: linear-gradient(to bottom, #e9edc9, rgb(101, 119, 67));
+    margin: auto;
+    color: #283618;
+}
+
+h2 {
+    padding: 10px;
+    font-family: 'Noto Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+p {
+    text-align: center;
+    font-family: 'Garamond';
+}
+
+button {
+    font-family: 'Noto Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    font-weight: bold;
+    height: 50px;
+    width: 250px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: #fefae0;
+    background-color: #283618;
+    transition: all 0.2s ease-in-out;
+}
+
+.glow:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 20px 7px rgb(191 184 0);
+}
+
+.card {
+    padding: 30px 30px;
+    margin: 40px auto;
+    max-width: 500px;
+    max-height: 400px;
+    background-color: #fefae0;
+    text-align: center;
+    border-radius: 10px;
+    border-style: double;
+    border-color:rgb(101, 119, 67);
+    border-width: 6px;
+    
+}
+
+h3 {
+    font-size: 28px;
+}
+h3 + p {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: right;
+    font-size: small;    
+}
+
+img {
+    height: 15px;
+}
+
+.quote-image {
+    height: 25px;
+    margin-top: 20px;
+}
+
+h3 + p:before {
+    content:"\2014";
+    margin-right: 6px;
+}
